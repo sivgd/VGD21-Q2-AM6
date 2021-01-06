@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ron/Levels/Levelselect.unity
     guid: dc67d7cc888ce87478bea894d123795b
+  - enabled: 1
+    path: Assets/Ron/Levels/Credits.unity
+    guid: d76176ab8b72deb469a31106ee9a0ced
   m_configObjects: {}
