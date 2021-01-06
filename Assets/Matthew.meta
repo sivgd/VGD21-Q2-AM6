@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6087a1ca92bc4924e9cdc6f55ba6c367
+=======
+guid: 2f086b394642a1b4980a24a0bbe6669c
+>>>>>>> parent of cc978b3... Revert "Finished Character Controller"
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
