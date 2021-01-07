@@ -56,4 +56,17 @@ public class PlayerController : MonoBehaviour
             BodyBoi.AddForce(new Vector2(0, jumpforce));
         }
     }
+
+    void MovementReset()
+    {
+        if (Input.GetButtonUp("A"))
+        {
+            BodyBoi.AddForce(new Vector2(0, 0));
+        }
+
+        if (Input.GetButtonUp("D"))
+        {
+            BodyBoi.AddForce(new Vector2(0, 0));
+        }
+    }
 }
