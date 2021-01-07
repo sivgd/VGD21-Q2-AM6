@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour
     public bool IsGrounded;
     private Rigidbody2D BodyBoi;
     private SpriteRenderer Spr;
+    public Transform trf;
     
     void Start()
     {
         BodyBoi = GetComponent<Rigidbody2D>();
         Spr = GetComponent<SpriteRenderer>();
+        
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -31,14 +33,14 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetAxis("Horizontal") > 0)
         {
-            Spr.flipX = true;
+            transform.localEulerAngles = new Vector3(0, 180, 0);
             BodyBoi.AddForce(new Vector2(xcl, 0));
 
         }
 
         if (Input.GetAxis("Horizontal") < 0) 
         {
-            Spr.flipX = false;
+            transform.localEulerAngles = new Vector3(0, 0, 0);
             BodyBoi.AddForce(new Vector2(-xcl, 0));
         }
 
@@ -54,19 +56,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded == true)
         {
             BodyBoi.AddForce(new Vector2(0, jumpforce));
-        }
-    }
-
-    void MovementReset()
-    {
-        if (Input.GetButtonUp("A"))
-        {
-            BodyBoi.AddForce(new Vector2(0, 0));
-        }
-
-        if (Input.GetButtonUp("D"))
-        {
-            BodyBoi.AddForce(new Vector2(0, 0));
         }
     }
 }
