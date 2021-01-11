@@ -14,7 +14,7 @@ public class FireballThrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2)"))
+        if (Input.GetButtonDown("Fire2"))
         {
             Shoot();
         }
@@ -22,6 +22,6 @@ public class FireballThrow : MonoBehaviour
 
     void Shoot()
     {
-
+        
     }
 }
