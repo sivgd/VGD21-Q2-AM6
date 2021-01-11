@@ -1494,7 +1494,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33
+  field of view: 32
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2407,7 +2407,7 @@ PrefabInstance:
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
@@ -2417,7 +2417,7 @@ PrefabInstance:
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
@@ -2432,7 +2432,7 @@ PrefabInstance:
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
