@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7730091f4608fb4ba2c3775d1eb749f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadLevelname: w
+  LoadLevelname: TMPLevel1
 --- !u!212 &911479370
 SpriteRenderer:
   m_ObjectHideFlags: 0
