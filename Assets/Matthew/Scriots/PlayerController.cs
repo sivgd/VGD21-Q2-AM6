@@ -8,15 +8,13 @@ public class PlayerController : MonoBehaviour
     public float jumpforce = 400;
     public float SpeedCap;
     public bool IsGrounded;
-    public bool IsMoving;
     private Rigidbody2D BodyBoi;
-    private SpriteRenderer Spr;
     public Transform trf;
     
     void Start()
     {
         BodyBoi = GetComponent<Rigidbody2D>();
-        Spr = GetComponent<SpriteRenderer>();
+        
         
     }
 
