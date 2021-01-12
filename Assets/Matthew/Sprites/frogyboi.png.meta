@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Matthew/gouba_sprite.png.meta
 guid: e68993a66139f9f4dac7ee725a8bf386
+=======
+guid: 7c18638f70b69b648b010d0b56e3dcb7
+>>>>>>> main:Assets/Matthew/Sprites/frogyboi.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
