@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Ron/Levels/UI.unity
+    guid: c257f7e3e1e946f4a834605aac54174a
+  - enabled: 1
     path: Assets/Ron/Levels/Levelselect.unity
     guid: dc67d7cc888ce87478bea894d123795b
   - enabled: 1
@@ -14,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Matthew/w.unity
     guid: fafd798097e267a4cb574ec53721d8dd
+  - enabled: 1
+    path: Assets/Brandon/TMPLevel1.unity
+    guid: 404a1cde7f9be654faf367cf529299ef
   m_configObjects: {}

@@ -9,13 +9,12 @@ public class PlayerController : MonoBehaviour
     public float SpeedCap;
     public bool IsGrounded;
     private Rigidbody2D BodyBoi;
-    private SpriteRenderer Spr;
     public Transform trf;
     
     void Start()
     {
         BodyBoi = GetComponent<Rigidbody2D>();
-        Spr = GetComponent<SpriteRenderer>();
+        
         
     }
 
@@ -31,17 +30,17 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Horizontal") > 0)
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            transform.localEulerAngles = new Vector3(0, 180, 0);
-            BodyBoi.AddForce(new Vector2(xcl, 0));
+            transform.localEulerAngles = new Vector3(0, 0, 0);
+            BodyBoi.AddForce(new Vector2(xcl * Time.deltaTime, 0));
 
         }
 
-        if (Input.GetAxis("Horizontal") < 0) 
+        if (Input.GetAxisRaw("Horizontal") < 0) 
         {
-            transform.localEulerAngles = new Vector3(0, 0, 0);
-            BodyBoi.AddForce(new Vector2(-xcl, 0));
+            transform.localEulerAngles = new Vector3(0, 180, 0);
+            BodyBoi.AddForce(new Vector2(-xcl * Time.deltaTime, 0));
         }
 
         if (BodyBoi.velocity.x > SpeedCap)
