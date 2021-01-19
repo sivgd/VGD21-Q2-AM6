@@ -61,6 +61,8 @@ GameObject:
   - component: {fileID: 8215546408415936962}
   - component: {fileID: 1914088754}
   - component: {fileID: 1914088759}
+  - component: {fileID: 1914088748}
+  - component: {fileID: 1914088749}
   m_Layer: 0
   m_Name: Gouba
   m_TagString: Untagged
@@ -150,7 +152,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 5c756ae699b51304eb10a3c22dec6e4f, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -167,11 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca72341d74148f74cbb1b8b38372c7cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xcl: 200
-  jumpforce: 300
-  SpeedCap: 300
+  xcl: 300
+  jumpforce: 400
+  SpeedCap: 350
   IsGrounded: 0
-  IsMoving: 0
   trf: {fileID: 8163791625013187274}
 --- !u!114 &1914088758
 MonoBehaviour:
@@ -199,7 +200,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.55, y: -2}
+  m_Offset: {x: -0.01, y: -2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -210,7 +211,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.02, y: 3.8849335}
+  m_Size: {x: 14.98, y: 3.49}
   m_EdgeRadius: 0
 --- !u!70 &1914088754
 CapsuleCollider2D:
@@ -225,8 +226,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5, y: -0.62}
-  m_Size: {x: 11.88, y: 5.03}
+  m_Offset: {x: -0.5, y: 0.06}
+  m_Size: {x: 11.88, y: 6.73}
   m_Direction: 1
 --- !u!95 &1914088759
 Animator:
@@ -247,3 +248,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1914088748
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384641962011425451}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -6, y: 0}
+  m_Size: {x: 7.22, y: 1.81}
+  m_Direction: 1
+--- !u!70 &1914088749
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6384641962011425451}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 6.77, y: 0}
+  m_Size: {x: 4.9, y: 3.5}
+  m_Direction: 1

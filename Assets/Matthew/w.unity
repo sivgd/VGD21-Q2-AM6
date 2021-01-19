@@ -2137,38 +2137,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2936161102072977818}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &1914088748
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914088747}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -6, y: 0}
-  m_Size: {x: 7.22, y: 1.81}
-  m_Direction: 1
---- !u!70 &1914088749
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914088747}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 6.77, y: 0}
-  m_Size: {x: 4.9, y: 3.5}
-  m_Direction: 1
 --- !u!1 &2048322785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,38 +2693,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1914088754, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 1914088754, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
-      propertyPath: m_Size.y
-      value: 6.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818802200436341902, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: xcl
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818802200436341902, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: SpeedCap
-      value: 350
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818802200436341902, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: jumpforce
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
       propertyPath: m_Name
       value: Gouba
-      objectReference: {fileID: 0}
-    - target: {fileID: 7406310458129457166, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: m_Material
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8163791625013187274, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
@@ -2812,21 +2752,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8215546408415936962, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8215546408415936962, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 8215546408415936962, guid: 2d68a3eb105600149b1aea6f1180e455,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 13.57
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
