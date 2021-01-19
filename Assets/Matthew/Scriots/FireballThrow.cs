@@ -5,6 +5,8 @@ using UnityEngine;
 public class FireballThrow : MonoBehaviour
 {
     public Transform firepoint;
+    public SpriteRenderer SR;
+    public GameObject Throwing;
     public float Ammo;
     void Start()
     {
@@ -22,6 +24,7 @@ public class FireballThrow : MonoBehaviour
 
     void Shoot()
     {
-        
+        SR.enabled = false;
+        Throwing.active = true;
     }
 }
