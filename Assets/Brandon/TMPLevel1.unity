@@ -1259,7 +1259,10 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &262025190 stripped
@@ -1283,6 +1286,9 @@ MonoBehaviour:
   level: Credits
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 =======
 >>>>>>> main
@@ -2286,6 +2292,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &466325581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
@@ -2293,6 +2300,8 @@ GameObject:
   m_PrefabInstance: {fileID: 786241610}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 =======
@@ -2453,9 +2462,12 @@ MonoBehaviour:
   warmthbar: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
+=======
+>>>>>>> main
 =======
 --- !u!1 &466325581 stripped
 GameObject:
@@ -2464,6 +2476,9 @@ GameObject:
   m_PrefabInstance: {fileID: 786241610}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 --- !u!1 &485152399
 GameObject:
@@ -3369,6 +3384,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &786241610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3449,6 +3465,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 =======
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 =======
@@ -3536,9 +3554,12 @@ MonoBehaviour:
   heatlevel: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
+=======
+>>>>>>> main
 =======
 --- !u!1001 &786241610
 PrefabInstance:
@@ -3620,6 +3641,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 --- !u!1 &805520148
 GameObject:
@@ -5943,7 +5967,10 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1001 &1478133066
@@ -6041,6 +6068,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> main
 =======
 =======
 >>>>>>> main
