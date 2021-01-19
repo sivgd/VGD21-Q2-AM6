@@ -1278,6 +1278,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: Credits
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 --- !u!1 &314515351
 GameObject:
@@ -2275,6 +2278,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &466325581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
@@ -2282,6 +2286,8 @@ GameObject:
   m_PrefabInstance: {fileID: 786241610}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> main
 --- !u!1 &454505072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2442,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   warmthbar: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 --- !u!1 &485152399
 GameObject:
@@ -3339,6 +3348,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &786241610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3419,6 +3429,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 =======
+=======
+>>>>>>> main
 --- !u!1 &799490447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +3512,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   warmthbar: {fileID: 1736440819}
   heatlevel: 0
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 --- !u!1 &805520148
 GameObject:
@@ -4069,6 +4084,89 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1012965857
+<<<<<<< HEAD
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012965858}
+  - component: {fileID: 1012965860}
+  - component: {fileID: 1012965861}
+  - component: {fileID: 1012965859}
+  m_Layer: 0
+  m_Name: Cube (10)
+  m_TagString: Lava
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012965858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012965857}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.07, y: 4.5, z: 0.12109375}
+  m_LocalScale: {x: 5.011865, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2075168351}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1012965859
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012965857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!33 &1012965860
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012965857}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1012965861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012965857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736a6d0ce29659642855253b72421b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warmthbar: {fileID: 0}
+--- !u!1 &1030682084
+=======
+>>>>>>> main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
