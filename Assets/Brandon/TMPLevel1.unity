@@ -1260,11 +1260,17 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> main
 =======
->>>>>>> main
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+=======
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1 &262025190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
@@ -1287,10 +1293,16 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> main
 =======
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 >>>>>>> main
 =======
 >>>>>>> main
@@ -2293,6 +2305,12 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1 &466325581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
@@ -2302,10 +2320,16 @@ GameObject:
 =======
 =======
 >>>>>>> main
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1 &454505072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,6 +2487,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
@@ -2479,6 +2505,14 @@ GameObject:
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 >>>>>>> main
 --- !u!1 &485152399
 GameObject:
@@ -3385,6 +3419,12 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1001 &786241610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3467,10 +3507,16 @@ PrefabInstance:
 =======
 =======
 >>>>>>> main
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1 &799490447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,6 +3601,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 =======
@@ -3644,6 +3692,14 @@ PrefabInstance:
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 >>>>>>> main
 --- !u!1 &805520148
 GameObject:
@@ -5968,11 +6024,17 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> main
 =======
->>>>>>> main
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+=======
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 --- !u!1001 &1478133066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6069,12 +6131,18 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> main
 =======
 =======
 >>>>>>> main
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
+=======
+>>>>>>> parent of a175b79... Merge branch 'main' of https://github.com/sivgd/VGD21-Q2-AM6
 >>>>>>> main
 --- !u!1 &1483505717
 GameObject:
