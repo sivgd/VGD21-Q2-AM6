@@ -8,6 +8,7 @@ TagManager:
   - Lava
   - Enemy
   - Reload
+  - Return
   layers:
   - Default
   - TransparentFX

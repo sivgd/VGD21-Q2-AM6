@@ -14,10 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ron/Levels/Credits.unity
     guid: d76176ab8b72deb469a31106ee9a0ced
-  - enabled: 1
+  - enabled: 0
     path: Assets/Matthew/w.unity
     guid: fafd798097e267a4cb574ec53721d8dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Brandon/TMPLevel1.unity
     guid: 404a1cde7f9be654faf367cf529299ef
+  - enabled: 1
+    path: Assets/Brandon/Export/Level1.unity
+    guid: 307060b832320e34ea014713ff2f131a
   m_configObjects: {}

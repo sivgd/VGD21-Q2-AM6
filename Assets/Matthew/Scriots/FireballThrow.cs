@@ -34,7 +34,7 @@ public class FireballThrow : MonoBehaviour
         if(collision.tag == "Reload" && Ammo < 100 )
         {
             Tick += Time.deltaTime;
-            if(Tick >= 2)
+            if(Tick >= 1)
             {
                 Ammo = Ammo + 1;
             }
