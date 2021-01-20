@@ -7,6 +7,7 @@ public class FireballThrow : MonoBehaviour
     public Transform firepoint;
     public GameObject fireball;
     public float Ammo;
+    public float Tick;
     void Start()
     {
         
@@ -26,5 +27,18 @@ public class FireballThrow : MonoBehaviour
     {
         Instantiate(fireball, firepoint.position, firepoint.rotation);
         Ammo = Ammo - 10;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.tag == "Reload" && Ammo < 100 )
+        {
+            Tick += Time.deltaTime;
+            if(Tick >= 2)
+            {
+                Ammo = Ammo + 1;
+            }
+            
+        }
     }
 }
