@@ -5,8 +5,7 @@ using UnityEngine;
 public class FireballThrow : MonoBehaviour
 {
     public Transform firepoint;
-    public SpriteRenderer SR;
-    public GameObject Throwing;
+    public GameObject fireball;
     public float Ammo;
     void Start()
     {
@@ -16,15 +15,16 @@ public class FireballThrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Fire2") && Ammo > 0)
         {
+            
             Shoot();
         }
     }
 
     void Shoot()
     {
-        SR.enabled = false;
-        Throwing.active = true;
+        Instantiate(fireball, firepoint.position, firepoint.rotation);
+        Ammo = Ammo - 10;
     }
 }

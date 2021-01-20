@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 994872088}
   m_Layer: 0
   m_Name: frogyboi
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1527,7 +1527,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7c18638f70b69b648b010d0b56e3dcb7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 360e7db869d29e449ac1643b06294423, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1672,6 +1672,12 @@ Transform:
   m_Father: {fileID: 168070098}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1508184091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1024298183, guid: 2d68a3eb105600149b1aea6f1180e455,
+    type: 3}
+  m_PrefabInstance: {fileID: 224915249527566966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1607290506
 GameObject:
   m_ObjectHideFlags: 0
@@ -2598,10 +2604,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1818802200436341902, guid: 2d68a3eb105600149b1aea6f1180e455,
+    - target: {fileID: 1024298183, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024298183, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024298184, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: fireball
+      value: 
+      objectReference: {fileID: 584940131147260532, guid: d91038143d3a2d148b5c753185ceb23d,
         type: 3}
-      propertyPath: xcl
-      value: 400
+    - target: {fileID: 1024298184, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: firepoint
+      value: 
+      objectReference: {fileID: 1508184091}
+    - target: {fileID: 1574574982, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574574984, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3500006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574574985, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 13b6f84999c03a54db57e582cfeceea4, type: 2}
+    - target: {fileID: 1574574985, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6384641962011425451, guid: 2d68a3eb105600149b1aea6f1180e455,
         type: 3}
@@ -2663,8 +2697,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1914088758, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d68a3eb105600149b1aea6f1180e455, type: 3}
 --- !u!1 &3422985263033527153
 GameObject:

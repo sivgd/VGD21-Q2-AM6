@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ICE
   - Lava
+  - Enemy
   layers:
   - Default
   - TransparentFX

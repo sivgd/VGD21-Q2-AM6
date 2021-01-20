@@ -72,6 +72,7 @@ public class Quoteunquoteanimator : MonoBehaviour
             Falling.active = false;
             Jumping.active = false;
             Throwing.active = true;
+            GetComponent <PlayerController> ().enabled = false;
         }
 
         if (Input.GetButtonUp("Fire2"))
@@ -81,6 +82,7 @@ public class Quoteunquoteanimator : MonoBehaviour
             Falling.active = false;
             Jumping.active = false;
             Throwing.active = true;
+            GetComponent<PlayerController>().enabled = true;
         }
     }
 
