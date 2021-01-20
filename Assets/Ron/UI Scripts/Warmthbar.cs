@@ -7,6 +7,6 @@ public class Warmthbar : MonoBehaviour
     public Slider warmthbar;
      void OnCollisionStay2D(Collision2D collision)
     {
-        warmthbar.value += 0.1f;
+        warmthbar.value += 0.01f;
     }
 }
